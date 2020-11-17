@@ -7,9 +7,9 @@ const languageData = {
 	MISSING_ROLE: 'لم أتمكن من العثور على هذا الدور.',
 	NO_REASON: 'لا يوجد سبب معين.',
 	// external files/plugins
-	INCORRECT_DELIMITERS: 'Please use one of the following time delimiters: `d`,  `h`,  `m`, `s`.',
-	NOT_NUMBER:'Must be a number.',
-	MAX_TIME: 'Can\'t be longer than 10 days.',
+	INCORRECT_DELIMITERS: 'الرجاء استخدام أحد محددات الوقت التالية: 'd' و'h' و'm' و 's'.',
+	NOT_NUMBER:'يجب أن يكون رقماً.',
+	MAX_TIME: 'لا يمكن أن يكون أكثر من 10 أيام.',
 };
 
 const translate = (key, args) => {
