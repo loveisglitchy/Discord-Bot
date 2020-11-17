@@ -1,14 +1,14 @@
 const languageData = {
-	ERROR_MESSAGE: 'An error occured when running this command, please try again or contact support.',
-	INCORRECT_FORMAT: (commandExample) => `Please use the format: \`${commandExample}\`.`,
-	MISSING_PERMISSION: (permission) => `I am missing the permission: \`${permission}\`.`,
-	USER_PERMISSION: (permission) => `You are missing the permission: \`${permission}\`.`,
-	MISSING_ROLE: 'I was unable to find this role.',
-	NO_REASON: 'No reason given.',
+	ERROR_MESSAGE: 'Une erreur s’est produite lors de l’exécution de cette commande, essayez à nouveau ou contactez la prise en charge.',
+	INCORRECT_FORMAT: (commandExample) => `Veuillez utiliser le format : \`${commandExample}\`.`,
+	MISSING_PERMISSION: (permission) => `Il me manque la permission : \`${permission}\`.`,
+	USER_PERMISSION: (permission) => `Vous manquez l’autorisation : \`${permission}\`.`,
+	MISSING_ROLE: 'Je n’ai pas pu trouver ce rôle.',
+	NO_REASON: 'Aucune raison donnée.',
 	// external files/plugins
-	INCORRECT_DELIMITERS: 'Please use one of the following time delimiters: `d`,  `h`,  `m`, `s`.',
-	NOT_NUMBER:'Must be a number.',
-	MAX_TIME: 'Can\'t be longer than 10 days.',
+	INCORRECT_DELIMITERS: 'S’il vous plaît utiliser l’un des délimiteurs de temps suivant: `d`,  `h`,  `m`, `s`.',
+	NOT_NUMBER:'Ça doit être un numéro.',
+	MAX_TIME: 'Ça ne peut pas durer plus de 10 jours.',
 };
 
 const translate = (key, args) => {
